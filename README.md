@@ -17,5 +17,5 @@ Randomly generated 2D data is classified into 3 classes, Once using Softmax() as
 ![with_softmax](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/a11009f7-877c-4002-869a-302fe3bf07ca)
 
 ### With vs Without Batch Normalization (With Softmax)
-
+It stabilized model performance and reduced accuracy dips.
 ![Figure_2](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/e0dc6fdb-5487-4bb0-8fde-618af3644176)

@@ -25,5 +25,6 @@ Optimizer:- Adam
 Loss Function:- Negative Log Likelihood  
 Learning Rate:- 0.01  
 Epochs:- 100  
+[Dataset]([https://pages.github.com/](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv/))
 
 ![Figure_1](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/c60b76e6-8e07-46aa-9828-50ccee5d45d6)

@@ -21,9 +21,9 @@ It stabilized model performance and reduced accuracy dips.
 ![Figure_2](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/e0dc6fdb-5487-4bb0-8fde-618af3644176)
 
 ## Digit classification on MNIST dataset
-Optimizer:- Adam
-Loss Function:- Negative Log Likelihood
-Learning Rate:- 0.01
-Epochs:- 100
+Optimizer:- Adam  
+Loss Function:- Negative Log Likelihood  
+Learning Rate:- 0.01  
+Epochs:- 100  
 
 ![Figure_1](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/c60b76e6-8e07-46aa-9828-50ccee5d45d6)

@@ -35,6 +35,6 @@ Epochs:- 100
 ![Figure_1](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/e3742354-78d5-4523-9505-4f0ce05a94ff)
 
 ### Experiment
-I trained the model without data samples with label == 7 and later tested on data elements with label == 7 and plotted the results as a bar chart. The y-scale represents total times class(digit) on x-axis was predicted for data samples.
+I trained the model without data samples with label == 7 and later tested on data samples with label == 7 and plotted the results as a bar chart. The y-scale represents total times class(digit) on x-axis was predicted for data samples.
 
 ![Figure_1](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/d75c5e57-b859-4cda-b672-a2dcbcb6d4d4)

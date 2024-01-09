@@ -6,11 +6,11 @@ import torch.nn.functional as f
 import matplotlib.pyplot as plt
 from torch.utils.data import TensorDataset, DataLoader
 
-train_dataset = pd.read_csv('mnist_test.csv')
+train_dataset = pd.read_csv('mnist_train.csv')
 feature_matrix = torch.tensor(train_dataset.iloc[:, 1:].values).float()/255
 label = torch.tensor(train_dataset.iloc[:, 0].values).long()
 
-test_dataset = pd.read_csv('mnist_train.csv')
+test_dataset = pd.read_csv('mnist_test.csv')
 test_X = torch.tensor(test_dataset.iloc[:, 1:].values)/255
 test_y = torch.tensor(test_dataset.iloc[:, 0].values)
 
@@ -50,7 +50,9 @@ for epoch_i in range(n_epochs):
 
     test_results = classifier(test_X)
     test_results = torch.argmax(test_results, dim=1)
-    test_accuracies.append(torch.mean((test_results == test_y).float()).item() * 100)
+    test_acc = torch.mean((test_results == test_y).float()).item() * 100
+    print(f"Epoch {epoch_i+1}   Test Accuracy : {test_acc} %")
+    test_accuracies.append(test_acc)
 
 plt.plot(epochs, test_accuracies)
 plt.xlabel('Epoch')

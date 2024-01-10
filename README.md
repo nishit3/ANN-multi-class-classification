@@ -40,7 +40,7 @@ I trained the model without data samples with label == 7 and later tested on dat
 ![Figure_1](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/d75c5e57-b859-4cda-b672-a2dcbcb6d4d4)
 
 
-# Kaimin vs Xavier on the red-wine dataset
+# Kaiming vs Xavier on the red-wine dataset
 
 ![Figure_1](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/ec1e2f0d-a96e-47d7-af59-719647e74b5d)
 ![Figure_2](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/b88d69b9-75a2-4383-971d-44e439c07be2)

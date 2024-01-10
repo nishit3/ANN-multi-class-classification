@@ -38,3 +38,10 @@ Epochs:- 100
 I trained the model without data samples with label == 7 and later tested on data samples with label == 7 and plotted the results as a bar chart. The y-scale represents total times class(digit) on x-axis was predicted for data samples.
 
 ![Figure_1](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/d75c5e57-b859-4cda-b672-a2dcbcb6d4d4)
+
+
+# Kaimin vs Xavier on the red-wine dataset
+
+![Figure_1](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/ec1e2f0d-a96e-47d7-af59-719647e74b5d)
+![Figure_2](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/b88d69b9-75a2-4383-971d-44e439c07be2)
+![Figure_3](https://github.com/nishit3/ANN-multi-class-classification/assets/90385616/7691f9d1-45a2-4143-8e28-f509b9d0ad55)
